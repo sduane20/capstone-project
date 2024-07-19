@@ -46,7 +46,7 @@ nav ul li a {
     text-transform: capitalize;
 }
 
-a.acive, a:hover {
+a.active, a:hover {
     background-color: #fff;
     color: #c26f1e;
     transition: .5s;
