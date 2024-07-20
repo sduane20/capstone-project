@@ -19,49 +19,6 @@ nav {
   position: fixed;
 }
 
-label.logo {
-  color: #fff;
-  font-size: 35px;
-}
-
-nav ul {
-  margin-right: 20px;
-}
-
-nav ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a {
-  color: #fff;
-  font-size: 16px;
-  padding: 7px 13px;
-  border-radius: 10px;
-  text-transform: capitalize;
-}
-
-a.active, a:hover {
-  background-color: #fff;
-  color: #c26f1e;
-  transition: .5s;
-}
-
-.checkbtn {
-  font-size: 30px;
-  color: #fff;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-}
-
 .footer {
   background-color: #c26f1e;
   position: fixed;
@@ -75,154 +32,55 @@ a.active, a:hover {
   text-transform: capitalize;
 }
 
-/*Extra small devices (phones, 600px and down*/
-
-@media only screen and (max-width: 600px) {
-  label.logo {
-    font-size: 20px;
-  }
-
-  .checkbtn {
-    display: block;
-    margin: 20px;
-  }
-
-   ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background-color: #c26f1e;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: 0.5s;
-   }
-
-   nav ul li  {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-   }
-
-   nav ul li a {
-    font-size: 20px;
-   }
-
-   a:hover, a.active {
-    background-color: #fff;
-    color: #c26f1e;
-   }
-
-   .footer {
-    font-size: 20px;
-   }
-
-   #check:checked ~ ul {
-    left: 0;
-   }
+.navbar-brand {
+  color: #fff;
 }
 
-/*Small devices (portrait tablets and large phones, 600px and up*/
-
-@media only screen and (min-width: 600px) {
-  label.logo {
-    font-size: 25px;
-  }
-
-  .checkbtn {
-    display: block;
-    margin: 20px;
-  }
-
-   ul {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background-color: #c26f1e;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: 0.5s;
-   }
-
-   nav ul li  {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-   }
-
-   nav ul li a {
-    font-size: 20px;
-   }
-
-   a:hover, a.active {
-    background-color: #fff;
-    color: #c26f1e;
-   }
-
-   .footer {
-    font-size: 25px;
-   }
-
-   #check:checked ~ ul {
-    left: 0;
-   }
-  
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-/*Medium devices (landscape tablets and 768px and up*/
-@media only screen and (min-width: 768px) {
-  
-  label.logo {
-    font-size: 30px;
-  }
-
-  .checkbtn {
-    display: block;
-    margin: 20px;
-  }
-
-   ul {
-    position: fixed;
-    width: 50%;
-    height: 100vh;
-    background-color: #c26f1e;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: 0.5s;
-   }
-
-   nav ul li  {
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-   }
-
-   nav ul li a {
-    font-size: 30px;
-   }
-
-   a:hover, a.active {
-    background-color: #fff;
-    color: #c26f1e;
-   }
-
-   .footer {
-    font-size: 30px;
-   }
-
-   #check:checked ~ ul {
-    left: 0;
-   }
+.navbar-toggler {
+  border-color: #fff;
 }
 
-/*Large devices (laptops, desktops, and 992px and up*/
-@media only screen and (min-width: 992px) {
-  
+
+.nav-link {
+  color: #fff;
+  margin: 5px;
 }
 
-/*Extra large devices (large laptops and desktops, 1200px and up)*/
-@media only screen and (min-width: 1200px) {
+.nav-link:hover {
+  background-color: #fff;
+  color: #c26f1e;
+  border-radius: 15px;
+}
 
+.navbar-collapse {
+  background-color: #c26f1e;
+  width: 100%;
+}
+
+.collapse {
+  width: 100%;
+}
+
+.dropdown-menu {
+  background-color: #c26f1e;
+}
+
+.dropdown-item {
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  background-color: #fff;
+  color: #c26f1e;
+  border-radius: 15px;
+}
+
+.active {
+  background-color: #fff;
+  color:#c26f1e !important;
+  border-radius: 15px;
 }
